@@ -7,8 +7,9 @@ The purpose of this analysis is to create a dataframe summarizes the key metrics
 
 ## *Resources*
 
-      * city_data.csv
-      * ride_data.csv
+  * Data Source:
+     * city_data.csv
+     * ride_data.csv
   
   * Software: Python 3.7.6, Anaconda 4.8.3, Jupyter Notebook 6.0.3
   
