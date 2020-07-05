@@ -9,10 +9,10 @@ I analyzed the data by merging the two datasets given and then i got the total r
 ### Results
 This table below shows the summary of the key metricswhich are the toral rides, total drivers, total fares, average fare per ride and average fare per driver for the ride-sharing data by city type 
 ![Pyber Summary Table](https://github.com/soijebor/PyBer_Analysis/blob/master/Images/pyber_summary_data_df.png)
-
+This chart shows the relationship between each city type and fare between January to April 2019 weekly
 ![Multiple line chart of the dataframe](https://github.com/soijebor/PyBer_Analysis/blob/master/Images/multiple_line_chart_df.png)
 ### Summary
-
+In conclusion, from both technical analysis we can see that the urabn cities have the highest fare prices and the rural citites have the lowest fare prices betweeen January to April 2019
 ## Challenges Encountered and Overcome
-
+The challenge i encountered and overcame was finding the total drivers and i overcame it by using the original city data instead of the merged dataset as the merged dataset is counting the driver count multiple times due to the 2 different datasets
 ### Challenges and Difficulties Encountered
