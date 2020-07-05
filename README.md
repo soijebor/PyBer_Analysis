@@ -35,14 +35,7 @@ The purpose of this analysis is to create a dataframe summarizes the key metrics
 7. Reset the index, then create a pivot table DataFrame with the Date as the index and columns = 'City Type'. The Fare for each Date should appear in each row.
 8. Create a new DataFrame from the pivot table DataFrame on the given dates, '2019-01-01':'2019-04-28', using loc.
 9. Create a new DataFrame by setting the DataFrame you created in Step 8 with resample() in weekly bins, and calculate the sum() of the fares for each week in the resampled data.
-10. Using the object-oriented interface method, plot the DataFrame you created in Step 9 using the df.plot() function. Things to consider with your plotting:
-    * Import the style from Matplotlib.
-    * Use the FiveThirtyEight (Links to an external site.) graph style.
-    * Add a title.
-    * Add x- and y-axis labels according to the final figure.
-    * Save the figure to the “analysis” folder.
-    * Make the figure size large enough so it’s not too small.
-  
+10. Using the object-oriented interface method, plot the DataFrame you created in Step 9 using the df.plot() function.
 ### Results
 
 The table below shows the summary of the key metrics which are the toral rides, total drivers, total fares, average fare per ride and average fare per driver for the ride-sharing data by city type 
