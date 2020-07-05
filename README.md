@@ -38,9 +38,9 @@ The purpose of this analysis is to create a dataframe summarizes the key metrics
 10. Using the object-oriented interface method, plot the DataFrame you created in Step 9 using the df.plot() function.
 ### Results
 
-The table below shows the summary of the key metrics which are the toral rides, total drivers, total fares, average fare per ride and average fare per driver for the ride-sharing data by city type 
+The table below shows the summary of the key metrics which are the toral rides, total drivers, total fares, average fare per ride and average fare per driver for the ride-sharing data by city type.
 ![Pyber Summary Table](https://github.com/soijebor/PyBer_Analysis/blob/master/Images/pyber_summary_data_df.png)
-The chart shows the relationship between each city type and fare between January to April 2019 weekly
+The chart shows the relationship between each city type and fare between January to April 2019 weekly.
 ![Multiple line chart of the dataframe](https://github.com/soijebor/PyBer_Analysis/blob/master/Images/multiple_line_chart_df.png)
 
 ### Summary
@@ -50,13 +50,9 @@ In conclusion, from both technical analysis we can see that the urabn cities hav
 
 ### Challenges and Difficulties Encountered
 The challenge i encountered and overcame was finding the total drivers and i overcame it by using the original city data instead of the merged dataset as the merged dataset is counting the driver count multiple times due to the 2 different datasets
-* Programming
-
-* Data analysis
-
-* Graphing, etc
 
 ### Technical Analyses Used
+![Technical analysis used](https://github.com/soijebor/PyBer_Analysis/blob/master/Images/difficulties_technical_analysis.png)
 
 ## Recommendations and Next Steps
 
