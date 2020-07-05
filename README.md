@@ -1,10 +1,5 @@
 # PyBer Analysis Report
 
-## Background and Results
-
-### Purpose
-The purpose of this analysis is to create a dataframe summarizes the key metrics for the ride-sharing data by city type and show the sum of the fares for each week.
-
 ## *Resources*
 
   * Data Source:
@@ -12,7 +7,13 @@ The purpose of this analysis is to create a dataframe summarizes the key metrics
      * ride_data.csv
   
   * Software: Python 3.7.6, Anaconda 4.8.3, Jupyter Notebook 6.0.3
-  
+
+## Background and Results
+
+### Purpose
+The purpose of this analysis is to create a dataframe summarizes the key metrics for the ride-sharing data by city type and show therelationship between each city type and total fare for each week.
+
+
 ### Technical Analysis
 
 #### Technical Analysis 1:
