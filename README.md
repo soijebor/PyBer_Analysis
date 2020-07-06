@@ -1,5 +1,12 @@
 # PyBer Analysis Report
 
+## Challenge Overview
+This new assignment for you and Omar consists of three parts: two additional technical analyses and a written report that delivers your results to the CEO. To summarize:
+
+ * Technical Analysis Deliverable 1: A DataFrame that summarizes the key metrics for the ride-sharing data by city type.
+ * Technical Analysis Deliverable 2: A multiple-line chart, with one line for each city type, that shows the sum of the fares for each week.
+ * Delivering Results: A written report of your results, saved in a README.md document on your GitHub repository
+
 ## *Resources*
 
   * Data Source:
@@ -11,7 +18,7 @@
 ## Background and Results
 
 ### Purpose
-The purpose of this analysis is to create a dataframe summarizes the key metrics for the ride-sharing data by city type and show therelationship between each city type and total fare for each week.
+The purpose of this analysis is to create a dataframe summarizes the key metrics for the ride-sharing data by city type and toplot the sum of the fares for each city type that will show the relationship between each city type and total fare for each week.
 
 
 ### Technical Analysis
@@ -26,9 +33,9 @@ The purpose of this analysis is to create a dataframe summarizes the key metrics
   * Create the summary DataFrame with the appropriate columns, and apply formatting where appropriate.
  
 #### Technical Analysis 2:
-1. Rename columns {'city':'City', 'date':'Date','fare':'Fare', 'ride_id': 'Ride Id','driver_count': 'No. Drivers', 'type':'City Type'}.
+1. Rename columns 
 2. Set the index to the Date column.
-3. Create a new DataFrame, for fares, and include only the City Type and Fare columns using the copy() method on the merged DataFrame.
+3. Create a  DataFrame, for fares, and include only the City Type and Fare columns using the copy() method on the merged DataFrame.
 4. Set the index to the datetime data type.
     * Check to make sure the index is a datetime data type by using the info() method on the DataFrame.
 5. Calculate the sum() of fares by the type of city and date using groupby() to create a Series.
@@ -40,7 +47,7 @@ The purpose of this analysis is to create a dataframe summarizes the key metrics
 ### Results
 
 The table below shows the summary of the key metrics which are the toral rides, total drivers, total fares, average fare per ride and average fare per driver for the ride-sharing data by city type.
-![Pyber Summary Table](https://github.com/soijebor/PyBer_Analysis/blob/master/Analysis/pyber_summary_data.png)
+![Pyber Summary Table](https://github.com/soijebor/PyBer_Analysis/blob/master/Analysis/pyber_summary_data_df.png)
 The chart shows the relationship between each city type and fare between January to April 2019 weekly.
 ![Multiple line chart of the dataframe](https://github.com/soijebor/PyBer_Analysis/blob/master/Analysis/Fig8.png)
 
@@ -50,7 +57,7 @@ In conclusion, from both technical analysis we can see that the urabn cities hav
 ## Challenges Encountered and Overcome
 
 ### Challenges and Difficulties Encountered
-The challenge i encountered and overcame was finding the total drivers and i overcame it by using the original city data instead of the merged dataset as the merged dataset is counting the driver count multiple times due to the 2 different datasets
+The challenge i encountered and overcame was finding the total drivers and i overcame it by realizing the city data contains the number of drivers for each city type, when you merge this data with the ride data it will add up the driver count based on rides. So, the merged data has a driver count based on city and rides. In this case i used the city data dataframe to get the total drivers.
 
 ### Technical Analyses Used
 ![Technical analysis used](https://github.com/soijebor/PyBer_Analysis/blob/master/Analysis/difficulties_technical_analysis.png)
