@@ -47,7 +47,7 @@ The purpose of this analysis is to create a dataframe summarizes the key metrics
 ### Results
 
 The table below shows the summary of the key metrics which are the toral rides, total drivers, total fares, average fare per ride and average fare per driver for the ride-sharing data by city type.
-![Pyber Summary Table](https://github.com/soijebor/PyBer_Analysis/blob/master/Analysis/pyber_summary_data_df.png)
+![Pyber Summary Table](https://github.com/soijebor/PyBer_Analysis/blob/master/Analysis/pyber_summary_data.png)
 The chart shows the relationship between each city type and fare between January to April 2019 weekly.
 ![Multiple line chart of the dataframe](https://github.com/soijebor/PyBer_Analysis/blob/master/Analysis/Fig8.png)
 
@@ -60,8 +60,8 @@ In conclusion, from both technical analysis we can see that the urabn cities hav
 The challenge i encountered and overcame was finding the total drivers and i overcame it by realizing the city data contains the number of drivers for each city type, when you merge this data with the ride data it will add up the driver count based on rides. So, the merged data has a driver count based on city and rides. In this case i used the city data dataframe to get the total drivers.
 
 ### Technical Analyses Used
-![Technical analysis used](https://github.com/soijebor/PyBer_Analysis/blob/master/Analysis/difficulties_technical_analysis.png)
-
+ From the city data DataFrame i got the total drivers for each city type using the groupby() function on the city type.
+ 
 ## Recommendations and Next Steps
 
 ### Recommendations for Future Analysis
