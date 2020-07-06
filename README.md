@@ -72,20 +72,20 @@ My recommendation is to create a chart to show the trend between No. drivers by 
 * Description of Approach
   * Show the trend between No. drivers by city type weekly
 * Technical Steps
-1. Create a  DataFrame, for No. Drivers, and include only the City Type and No. Drivers columns using the copy() method on the merged DataFrame.
-2. Set the index to the datetime data type.
-    * Check to make sure the index is a datetime data type by using the info() method on the DataFrame.
-3. Calculate the sum() of No. Drivers by the type of city and date using groupby() to create a Series.
-4. Convert the groupby Series into a DataFrame.
-5. Reset the index, then create a pivot table DataFrame with the Date as the index and columns = 'City Type'. The Fare for each Date should appear in each row.
-6. Create a new DataFrame from the pivot table DataFrame on the given dates, '2019-01-01':'2019-04-28', using loc.
-7. Create a new DataFrame by setting the DataFrame you created in Step 6 with resample() in weekly bins and calculate the sum() of the No. Drivers for each week in the resampled data.
-8. Using the object-oriented interface method, plot the DataFrame you created in Step 7 using the df.plot() function.
+  * Create a  DataFrame, for No. Drivers, and include only the City Type and No. Drivers columns using the copy() method on the merged DataFrame.
+  * Set the index to the datetime data type.
+        * Check to make sure the index is a datetime data type by using the info() method on the DataFrame.
+  * Calculate the sum() of No. Drivers by the type of city and date using groupby() to create a Series.
+  * Convert the groupby Series into a DataFrame.
+  * Reset the index, then create a pivot table DataFrame with the Date as the index and columns = 'City Type'. The Fare for each Date should appear in each row.
+  * Create a new DataFrame from the pivot table DataFrame on the given dates, '2019-01-01':'2019-04-28', using loc.
+  * Create a new DataFrame by setting the DataFrame you created in Step 6 with resample() in weekly bins and calculate the sum() of the No. Drivers for each week in the resampled data.
+  * Using the object-oriented interface method, plot the DataFrame you created in Step 7 using the df.plot() function.
 
 ### Additional Analysis 2
 
 * Description of Approach
   * Build percentage of rides by city type pie chart
 * Technical Steps
-1. Get the percentage of rides by city type using groupby() and sum() function from the merged dataframe from the analysis performed in the challenge
-2.Using the object-oriented interface method, plot the percentage of rides by city type pie chart using plt.subplot 
+  * Get the percentage of rides by city type using groupby() and sum() function from the merged dataframe from the analysis performed in the challenge
+  * Using the object-oriented interface method, plot the percentage of rides by city type pie chart using plt.subplot 
