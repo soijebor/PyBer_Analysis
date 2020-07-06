@@ -40,7 +40,7 @@ The purpose of this analysis is to create a dataframe summarizes the key metrics
 ### Results
 
 The table below shows the summary of the key metrics which are the toral rides, total drivers, total fares, average fare per ride and average fare per driver for the ride-sharing data by city type.
-![Pyber Summary Table](https://github.com/soijebor/PyBer_Analysis/blob/master/Analysis/pyber_summary_data_df.png)
+![Pyber Summary Table](https://github.com/soijebor/PyBer_Analysis/blob/master/Analysis/pyber_summary_data.png)
 The chart shows the relationship between each city type and fare between January to April 2019 weekly.
 ![Multiple line chart of the dataframe](https://github.com/soijebor/PyBer_Analysis/blob/master/Analysis/Fig8.png)
 
