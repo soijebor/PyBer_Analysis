@@ -1,9 +1,9 @@
 # PyBer Analysis Report
 
 ## Challenge Overview
-The C.E.O. of PyBer ride sharing has given me the following tasks to :
+The C.E.O. of PyBer ride sharing has given me the following tasks to:
 
- * Technical Analysis Deliverable 1:Create a DataFrame that summarizes the key metrics for the ride-sharing data by city type.
+ * Technical Analysis Deliverable 1: Create a DataFrame that summarizes the key metrics for the ride-sharing data by city type.
  * Technical Analysis Deliverable 2: Create a multiple-line chart, with one line for each city type, that shows the sum of the fares for each week.
  * Delivering Results: A written report of your results, saved in a README.md document on your GitHub repository
 
@@ -18,7 +18,7 @@ The C.E.O. of PyBer ride sharing has given me the following tasks to :
 ## Background and Results
 
 ### Purpose
-The purpose of this analysis is to create a dataframe summarizes the key metrics for the ride-sharing data by city type and toplot the sum of the fares for each city type that will show the relationship between each city type and total fare for each week.
+The purpose of this analysis is to create a dataframe summarizes the key metrics for the ride-sharing data by city type and to plot the sum of the fares for each city type that will show the trend between each city type and total fare for each week.
 
 
 ### Technical Analysis
@@ -30,7 +30,7 @@ The purpose of this analysis is to create a dataframe summarizes the key metrics
 
 * To format the summary DataFrame, follow these steps:
   * Delete the index name.
-  * Create the summary DataFrame with the appropriate columns, and apply formatting where appropriate.
+  * Create the summary DataFrame with the appropriate columns and apply formatting where appropriate.
  
 #### Technical Analysis 2:
 1. Rename columns 
@@ -42,17 +42,17 @@ The purpose of this analysis is to create a dataframe summarizes the key metrics
 6. Convert the groupby Series into a DataFrame.
 7. Reset the index, then create a pivot table DataFrame with the Date as the index and columns = 'City Type'. The Fare for each Date should appear in each row.
 8. Create a new DataFrame from the pivot table DataFrame on the given dates, '2019-01-01':'2019-04-28', using loc.
-9. Create a new DataFrame by setting the DataFrame you created in Step 8 with resample() in weekly bins, and calculate the sum() of the fares for each week in the resampled data.
+9. Create a new DataFrame by setting the DataFrame you created in Step 8 with resample() in weekly bins and calculate the sum() of the fares for each week in the resampled data.
 10. Using the object-oriented interface method, plot the DataFrame you created in Step 9 using the df.plot() function.
 ### Results
 
-The table below shows the summary of the key metrics which are the toral rides, total drivers, total fares, average fare per ride and average fare per driver for the ride-sharing data by city type.
+The table below shows the summary of the key metrics which are the total rides, total drivers, total fares, average fare per ride and average fare per driver for the ride-sharing data by city type.
 ![Pyber Summary Table](https://github.com/soijebor/PyBer_Analysis/blob/master/Analysis/pyber_summary_data.png)
 The chart shows the relationship between each city type and fare between January to April 2019 weekly.
 ![Multiple line chart of the dataframe](https://github.com/soijebor/PyBer_Analysis/blob/master/Analysis/Fig8.png)
 
 ### Summary
-In conclusion, from both technical analysis we can see that the urabn cities have the highest fare prices and the rural citites have the lowest fare prices betweeen January to April 2019
+From both technical analysis we can see that the urban cities have the highest fare prices and the rural cities have the lowest fare prices between January to April 2019
 
 ## Challenges Encountered and Overcome
 
@@ -78,7 +78,7 @@ My recommendation is to find the
 4. Convert the groupby Series into a DataFrame.
 5. Reset the index, then create a pivot table DataFrame with the Date as the index and columns = 'City Type'. The Fare for each Date should appear in each row.
 6. Create a new DataFrame from the pivot table DataFrame on the given dates, '2019-01-01':'2019-04-28', using loc.
-7. Create a new DataFrame by setting the DataFrame you created in Step 6 with resample() in weekly bins, and calculate the sum() of the No. Drivers for each week in the resampled data.
+7. Create a new DataFrame by setting the DataFrame you created in Step 6 with resample() in weekly bins and calculate the sum() of the No. Drivers for each week in the resampled data.
 8. Using the object-oriented interface method, plot the DataFrame you created in Step 7 using the df.plot() function.
 
 ### Additional Analysis 2
@@ -86,5 +86,5 @@ My recommendation is to find the
 * Description of Approach
   * Build percentage of rides by city type pie chart
 * Technical Steps
-1. Get the percentage of rides by city type using groupby() and sum() function from the mrged dataframe from the analysis performed in the challenge
+1. Get the percentage of rides by city type using groupby() and sum() function from the merged dataframe from the analysis performed in the challenge
 2.Using the object-oriented interface method, plot the percentage of rides by city type pie chart using plt.subplot 
