@@ -48,7 +48,7 @@ The purpose of this analysis is to create a dataframe summarizes the key metrics
 
 The table below shows the summary of the key metrics which are the total rides, total drivers, total fares, average fare per ride and average fare per driver for the ride-sharing data by city type.
 ![Pyber Summary Table](https://github.com/soijebor/PyBer_Analysis/blob/master/Analysis/pyber_summary_data.png)
-The chart shows the relationship between each city type and fare between January to April 2019 weekly.
+The chart shows the trend between each city type and fare between January to April 2019 weekly.
 ![Multiple line chart of the dataframe](https://github.com/soijebor/PyBer_Analysis/blob/master/Analysis/Fig8.png)
 
 ### Summary
@@ -65,7 +65,8 @@ The challenge i encountered was finding the total drivers and i overcame it by r
 ## Recommendations and Next Steps
 
 ### Recommendations for Future Analysis
-My recommendation is to find the
+My recommendation is to create a chart to show the trend between No. drivers by city type weekly and also build percentage of rides by city type pie chart
+
 ### Additional Analysis 1
 
 * Description of Approach
