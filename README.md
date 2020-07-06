@@ -69,7 +69,7 @@ My recommendation is to find the
 ### Additional Analysis 1
 
 * Description of Approach
-Show the trend between No. drivers by city type weekly
+  * Show the trend between No. drivers by city type weekly
 * Technical Steps
 1. Create a  DataFrame, for No. Drivers, and include only the City Type and No. Drivers columns using the copy() method on the merged DataFrame.
 2. Set the index to the datetime data type.
@@ -84,7 +84,7 @@ Show the trend between No. drivers by city type weekly
 ### Additional Analysis 2
 
 * Description of Approach
-Build percentage of rides by city type pie chart
+  * Build percentage of rides by city type pie chart
 * Technical Steps
 1. Get the percentage of rides by city type using groupby() and sum() function from the mrged dataframe from the analysis performed in the challenge
 2.Using the object-oriented interface method, plot the percentage of rides by city type pie chart using plt.subplot 
